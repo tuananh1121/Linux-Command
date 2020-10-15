@@ -10,7 +10,7 @@ Dùng để hiển thị đường dẫn thư mục hiện tại
 
 ![](/image/pwd.png)
 
-## 2.cd command
+## 2.cd command <a name="cd"></a>
 Dùng để di chuyển qua lại giữa các thư mục
 
 ### 2.1 cd /
@@ -33,7 +33,7 @@ Dùng để di chuyển về thư mục trước đó đã thoát
 
 ![](/image/cd4.png)
 
-## 3. ls command
+## 3. ls command <a name="ls"></a>
 Liệt kê các tệp và thư mục:quyền,user,kích thước,.....
 
 ### 3.1 ls -a
