@@ -66,4 +66,14 @@ Hiển thị file theo dạng cây thư mục và đường dẫn
 
 ![](/image/ls6.png)
 
+### 3.7 ls -1
+Hiển thị mỗi thư mục trên 1 dòng
+
+![](/image/ls7.png)
+
+### 3.8 ls -ld /etc
+Hiển thị thông tin thư mục
+
+![](/image/ls8.png)
+
 
