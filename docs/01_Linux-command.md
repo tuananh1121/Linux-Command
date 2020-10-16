@@ -78,7 +78,7 @@ Hiển thị thông tin thư mục
 ![](/image/ls8.png)
 
 
-## 4. mkdir <a name="mkdir></a>
+## 4. mkdir <a name="mkdir"></a>
 Tạo thư mục ở vị trí hiện tại đang đứng
 
 Tạo nhiều thư mục
