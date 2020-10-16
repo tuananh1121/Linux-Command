@@ -5,6 +5,7 @@
 |[1. pwd](#pwd)|-|-|-|-|
 |[2. cd](#cd)|-|-|-|-|
 |[3. ls](#ls)|-|-|-|-|
+|[4. mkdir](#mkdir)|-|-|-|-|
 ## 1. pwd command <a name="pwd"></a>
 Dùng để hiển thị đường dẫn thư mục hiện tại
 
@@ -77,3 +78,19 @@ Hiển thị thông tin thư mục
 ![](/image/ls8.png)
 
 
+## 4. mkdir <a name="mkdir></a>
+Tạo thư mục ở vị trí hiện tại đang đứng
+
+Tạo nhiều thư mục
+
+![](/image/mkdir1.png)
+
+### 4.1 mkdir -p 
+Tạo thư mục con khi chưa có thư mục cha
+
+![](/image/mkdir2.png)
+
+### 4.2 mkdir -m
+Tạo thư mục và phân quyền cho thư mục
+
+![](/image/mkdir3.png)
