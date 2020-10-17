@@ -6,6 +6,10 @@
 |[2. cd](#cd)|-|-|-|-|
 |[3. ls](#ls)|-|-|-|-|
 |[4. mkdir](#mkdir)|-|-|-|-|
+|[5. touch](#touch)|-|-|-|-|
+|[6. rm](#rm)|-|-|-|-|
+|[7. cp](#cp)|-|-|-|-|
+|[8. mv](#mv)|-|-|-|-|
 ## 1. pwd command <a name="pwd"></a>
 Dùng để hiển thị đường dẫn thư mục hiện tại
 
@@ -94,3 +98,89 @@ Tạo thư mục con khi chưa có thư mục cha
 Tạo thư mục và phân quyền cho thư mục
 
 ![](/image/mkdir3.png)
+
+## 5. touch <a name="touch"></a>
+Dùng để tạo file trống
+```
+# touch <file name>
+```
+
+Tạo nhiều file trống
+
+```
+# touch <file1> <file2> <file3>
+```
+## 6. rm <a name="rm"></a>
+Dùng để xóa file hoặc thư mục
+
+### 6.1 rm <tên file>
+```
+rm <tên file>
+```
+
+Xóa nhiều file
+
+``` 
+rm <file1> <file2> <file3>
+```
+
+### 6.2 rm <option> <tên file>
+
+* Option:
+ * `-r`: hỏi trước khi xóa
+ * `-f`: xóa không cần hỏi
+ * `-I`: xóa các thưc mục có tên gần giống nhau
+ * `-v`: hiển thị kết quả xóa
+
+## 7. cp <a name="cp"></a>
+Dùng để xóa chép file hoặc thư mục
+
+* Sao chép nội dung 1 file vào 1 file khác. Nếu file đích đó chưa tồn tại thì sẽ tạo ra file đó với nội dung giống hệt file nguồn.
+
+```
+# cp <file nguồn> <file đích>
+```
+* Copy file vào thư mục khác 
+
+![](/image/cp1.png)
+
+* `# cp <options> `
+ * Options:
+  * `-n`: ép buộc lệnh copy không được ghi đè nếu file nguồn và file đích cùng tên
+  * `-f`: ép buộc lệnh copy ghi đè nếu file nguồn và file đích cùng tên
+  * `v`: hiển thị quá trình copy
+
+### 7.1 cp -r/-R
+Copy toàn bộ thư mục
+
+![](/image/cp2.png)
+
+## 8. mv <a name="mv"></a>
+Dùng để di chuyển file hay thư mục.Trong một số trường hợp cũng dùng để đổi tên file hoặc thư mục
+
+* Đổi tên file hay thư mục
+```
+# mv file1 file2
+```
+
+Di chuyển file hoặc thư mục đến thư mục khác
+
+```
+# mv file1 /home/tuananh
+```
+### 8.1 mv -f
+Ghi đè lên tệp đích và xóa tệp nguồn
+
+![](/image/mv1.png)
+
+### 8.2 mv -v
+Hiển thị quá trình di chuyển hoặc đổi tên
+
+![](/image/mv2.png)
+
+
+
+
+
+
+
