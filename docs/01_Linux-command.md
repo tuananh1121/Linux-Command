@@ -178,9 +178,78 @@ Hiển thị quá trình di chuyển hoặc đổi tên
 
 ![](/image/mv2.png)
 
+## 9. head <a name="head"></a>
+Dùng để in phần đầu của tệp tin
 
+```
+# head <tên file>
+```
+mặc định in ra 10 dòng đầu tiền 
 
+![](/image/head1.png)
 
+Cũng có thể cùng một lúc dùng cho nhiều file
 
+![](/image/head2.png)
 
+### 9.1 head -n
+Dùng để hiển thị số dòng muốn xem. Ví dụ muốn hiển thị ra 3 dòng đầu tiên
 
+![](/image/head3.png)
+
+### 9.2 head -v
+Hiển thị cùng với tên file
+
+![](/image/head4.png)
+
+## 10. tail <a name="tail"></a>
+Hiển thị những dòng cuối cùng của file. Cũng giống như lệnh `head`, `tail` cũng hiển thị ra 10 dòng
+
+![](/image/tail1.png)
+
+Tương tự với nhiều file
+
+![](/image/tail2.png)
+
+### 10.1 tail -n
+Hiển thị ra số dòng muốn lấy
+
+![](/image/tail3.png)
+
+### 10.2 tail -v
+Hiển thị cùng với tên file
+
+![](/image/tail4.png)
+
+### 10.3 tail -f
+Dùng để theo dõi file log
+
+Khi sử dụng câu lệnh `tail -f` nó sẽ in ra và cập nhật **liên tục** những dòng cuối cùng của file
+
+![](/image/tail5.png)
+
+## 11 cat <a name="cat"></a>
+
+Dùng để tạo, xem nội dung file
+
+* Xem nội dung file
+
+![](/image/cat1.png)
+
+* Tạo file
+
+![](/image/cat2.png)
+
+Khi tạo và điền thông tin vào file xong ta gõ `ctrl+d` để thoát và lưu file
+
+* Copy nội dung file
+
+![](/image/cat3.png)
+
+Lưu ý: Nội dung file nguồn sẽ ghi đè lên nội dung file đích
+
+* Thêm nội dung file
+
+![](/image/cat4.png)
+
+Lưu ý: Nội dung file nguồn sẽ thêm vào cuối nội dung của file đích
